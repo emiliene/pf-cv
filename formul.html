@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription</title>
+    <link rel="stylesheet" href="formul.css">
+</head>
+<body>
+    <div class="div">
+         <h3>FICHE D'INSCRIPTION <br> A L'EXAMEN D'APTITUDE A LA FROMATION <br>DE MEDECINE,PHARMACEUTIQUE <br> ET ODONTOSTOMATOLOGIAUQUE AU CAMEROUN</h3>
+          <h1>IDENTIFICATION DU CANDIDATS</h1>   
+    <hr>
+    <form action="#" method="post">
+        <label for="nom">mon:</label>
+          <input type="text" id="nom" name="nom" required><br>
+        <label for="prenom">prenom:</label>
+          <input type="text" id="prenom" name="prenom" required><br>
+        <label for="date de naissance">date de naissance</label>
+          <input type="text" id="date de naissance"name="date de naissance" required><br>
+        <label for="lieu de naissance">lieu de naissance</label>
+          <input type="text" id="lieu de naissance" name="lieu de naissance" required><br>
+        <label class="required">genre</label>
+                <label class="required">Genre</label>
+        <div class="radio-group">
+            <div class="radio-option">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Masculin</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Féminin</label>
+            </div>
+        </div>
+        <label for="nationalite">nationalite</label>
+        <select name="country" id="country">
+            <option value="">selectionnez un pays</option>
+            <option value="be">benin</option>
+            <option value="se">senegel</option>
+            <option value="rca">rca</option>
+            <option value="cam">cameroun</option>
+            <option value="bu">bukina</option>
+        </select>
+        <input type="text"id="nationalite" name="nationalite" required><br>
+        <label for="region d'origine"> region d'origine</label>
+        <input type="text"id="region d'origine" name="region d'origine" required><br>
+        <label for="departement d'origi">departement d'origine</label>
+        <input id="departement d'origi" name="departement d'origine" required><br>
+        <label for="premier langue">premier langue"</label>
+        <input type="text" id="premier langue" name="premier langue"required><br>
+        <label for="num de telephone"> num de telephone</label>
+        <input type="text" id="num de telephone" name="num de telephone" required><br>
+        <label for="email">email</label>
+        <input type="text" id="email" name="email" required><br>
+        <div class="btn">
+          <button type="submit" class="btn-submit">valider</button>
+          <button type="reset" class="btn-submit">annuler</button><br>
+        </div>
+    </form>
+</body>
+</html>

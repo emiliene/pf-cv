@@ -1,0 +1,91 @@
+body{
+    justify-items: center;
+    background-color: aliceblue;
+}
+.div{
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.158);
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right,rgb(119, 249, 249), rgb(89, 244, 164), rgb(0, 255, 0));
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+form{
+    margin-left: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+ input, select, textarea {
+            width: 700px;
+            padding: 14px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+input:focus, select:focus, textarea:focus {
+            border-color: #65ff7c;
+            box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+            outline: none;
+        }
+input[type="radio"]{
+            width: auto;
+            margin-right: 10px;
+        }
+.radio-group{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 8px;
+        }
+
+.radio-option{
+            display: flex;
+            align-items: center;
+        }
+
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+.btn{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.btn-submit {
+    background: linear-gradient(rgb(119, 249, 249), rgb(89, 244, 164), rgb(0, 255, 0));
+    color: white;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 30px auto 0;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.btn-submit:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn-submit:active {
+    transform: translateY(1px);
+}
